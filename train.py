@@ -21,6 +21,7 @@ try:
 except ImportError:
     TENSORBOARD_FOUND = False
 
+# main train function
 def training():
     training_args = cfg.train
     optim_args = cfg.optim
